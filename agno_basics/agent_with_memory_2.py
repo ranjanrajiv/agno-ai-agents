@@ -1,6 +1,6 @@
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
-from agno.db.json import JsonDb
+from agno.db.sqlite import SqliteDb
 from dotenv import load_dotenv
 
 # load the api key to env
@@ -10,11 +10,10 @@ load_dotenv()
 llm = OpenAIChat(id="gpt-4.1-mini")
 
 # add session id
-session_id = "session_1"
+session_id = "session_123"
 
 # create a database
-db = JsonDb(db_path="chat_history_db",
-            session_table="session_history")
+db = SqliteDb(db_file="demo.db")
 
 # create the agent
 agent = Agent(
@@ -33,7 +32,7 @@ agent.print_response(input="Hi, my name is Rajiv")
 
 # agent.print_response(input="Can you tell me my name?")
 
-agent.print_response(input="tell me a joke that is funny")
+agent.print_response(input="tell me a joke that is very funny")
 
 agent.print_response(input="generate a paragraph on Gen AI")
 

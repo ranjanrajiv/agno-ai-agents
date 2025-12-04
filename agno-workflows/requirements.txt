@@ -1,0 +1,8 @@
+agno
+openai
+pydantic
+python-dotenv
+SQLAlchemy
+ddgs
+fastapi
+googlesearch-python

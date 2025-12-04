@@ -1,0 +1,389 @@
+[
+  {
+    "session_id": "session_1",
+    "agent_id": "agent-with-memory",
+    "team_id": null,
+    "user_id": null,
+    "workflow_id": null,
+    "session_data": {
+      "session_state": {},
+      "session_metrics": {
+        "input_tokens": 517,
+        "output_tokens": 244,
+        "total_tokens": 761,
+        "audio_input_tokens": 0,
+        "audio_output_tokens": 0,
+        "audio_total_tokens": 0,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 0,
+        "timer": null,
+        "time_to_first_token": null,
+        "duration": 8.037978245001796,
+        "provider_metrics": null,
+        "additional_metrics": null
+      }
+    },
+    "metadata": null,
+    "agent_data": {
+      "name": "agent_with_memory",
+      "agent_id": "agent-with-memory",
+      "model": {
+        "provider": "OpenAI",
+        "name": "OpenAIChat",
+        "id": "gpt-4.1-mini"
+      }
+    },
+    "runs": [
+      {
+        "run_id": "1ccdd4dc-3637-47be-95ac-88577fa20604",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Hello Himanshu! How can I assist you today?",
+        "content_type": "str",
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "metrics": {
+          "input_tokens": 35,
+          "output_tokens": 12,
+          "total_tokens": 47,
+          "time_to_first_token": 0.0004657140007111593,
+          "duration": 1.682593359000748
+        },
+        "session_state": {},
+        "created_at": 1764753171,
+        "status": "COMPLETED",
+        "events": [],
+        "messages": [
+          {
+            "id": "76bdec4c-70be-4256-8ac6-25746c2145f2",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1764753171
+          },
+          {
+            "id": "15103fb9-7d47-42f2-8251-df8e461f4851",
+            "content": "Hi, my name is Himanshu",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753171
+          },
+          {
+            "id": "ade1a62b-c110-4662-a7e1-ecd6efb4517c",
+            "content": "Hello Himanshu! How can I assist you today?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 35,
+              "output_tokens": 12,
+              "total_tokens": 47
+            },
+            "created_at": 1764753171
+          }
+        ],
+        "input": {
+          "input_content": "Hi, my name is Himanshu"
+        }
+      },
+      {
+        "run_id": "2137b28a-4a09-476c-8aff-461cdf547375",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Sure, Himanshu! Here\u2019s a joke for you:\n\n**Why don\u2019t scientists trust atoms?**  \nBecause they make up everything! \ud83d\ude04\n\nHope that made you smile! Would you like to hear another one?",
+        "content_type": "str",
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "metrics": {
+          "input_tokens": 62,
+          "output_tokens": 46,
+          "total_tokens": 108,
+          "time_to_first_token": 0.0013515970003936673,
+          "duration": 1.492766455000492
+        },
+        "session_state": {},
+        "created_at": 1764753175,
+        "status": "COMPLETED",
+        "events": [],
+        "messages": [
+          {
+            "id": "fb41003b-ae79-4ac0-930e-9ad8980a6bb7",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1764753175
+          },
+          {
+            "id": "15103fb9-7d47-42f2-8251-df8e461f4851",
+            "content": "Hi, my name is Himanshu",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753171
+          },
+          {
+            "id": "ade1a62b-c110-4662-a7e1-ecd6efb4517c",
+            "content": "Hello Himanshu! How can I assist you today?",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 35,
+              "output_tokens": 12,
+              "total_tokens": 47
+            },
+            "created_at": 1764753171
+          },
+          {
+            "id": "80db8d55-92aa-4295-97c0-9bbc72796154",
+            "content": "tell me a joke that is funny",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753175
+          },
+          {
+            "id": "bd82358d-de76-4274-bd72-a1a0745d86aa",
+            "content": "Sure, Himanshu! Here\u2019s a joke for you:\n\n**Why don\u2019t scientists trust atoms?**  \nBecause they make up everything! \ud83d\ude04\n\nHope that made you smile! Would you like to hear another one?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 62,
+              "output_tokens": 46,
+              "total_tokens": 108
+            },
+            "created_at": 1764753175
+          }
+        ],
+        "input": {
+          "input_content": "tell me a joke that is funny"
+        }
+      },
+      {
+        "run_id": "5b18d4df-62ac-4d9a-9018-1b876f56500d",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Certainly, Himanshu! Here\u2019s a paragraph on Generative AI:\n\nGenerative Artificial Intelligence (Gen AI) refers to a class of AI systems designed to create new content, such as text, images, music, or even code, by learning patterns from vast amounts of existing data. Unlike traditional AI that primarily focuses on classifying or predicting, Gen AI models, like GPT or DALL\u00b7E, generate original outputs that can be remarkably creative and human-like. These models leverage deep learning techniques, especially neural networks, to understand context and produce responses that are coherent and contextually relevant. Gen AI is transforming numerous industries by enhancing content creation, automating routine tasks, and enabling innovative applications in entertainment, design, and communication.\n\nLet me know if you want it to be more technical or simplified!",
+        "content_type": "str",
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "metrics": {
+          "input_tokens": 122,
+          "output_tokens": 161,
+          "total_tokens": 283,
+          "time_to_first_token": 0.0011306429996693623,
+          "duration": 3.1211097860004884
+        },
+        "session_state": {},
+        "created_at": 1764753177,
+        "status": "COMPLETED",
+        "events": [],
+        "messages": [
+          {
+            "id": "72f44e9e-e2dc-454b-89d9-de4c37406142",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1764753177
+          },
+          {
+            "id": "15103fb9-7d47-42f2-8251-df8e461f4851",
+            "content": "Hi, my name is Himanshu",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753171
+          },
+          {
+            "id": "ade1a62b-c110-4662-a7e1-ecd6efb4517c",
+            "content": "Hello Himanshu! How can I assist you today?",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 35,
+              "output_tokens": 12,
+              "total_tokens": 47
+            },
+            "created_at": 1764753171
+          },
+          {
+            "id": "80db8d55-92aa-4295-97c0-9bbc72796154",
+            "content": "tell me a joke that is funny",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753175
+          },
+          {
+            "id": "bd82358d-de76-4274-bd72-a1a0745d86aa",
+            "content": "Sure, Himanshu! Here\u2019s a joke for you:\n\n**Why don\u2019t scientists trust atoms?**  \nBecause they make up everything! \ud83d\ude04\n\nHope that made you smile! Would you like to hear another one?",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 62,
+              "output_tokens": 46,
+              "total_tokens": 108
+            },
+            "created_at": 1764753175
+          },
+          {
+            "id": "21244e3c-aebb-43d9-8360-44db19f7a3e6",
+            "content": "generate a paragraph on Gen AI",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753177
+          },
+          {
+            "id": "c762e208-3f97-4f44-a306-c040812f12d2",
+            "content": "Certainly, Himanshu! Here\u2019s a paragraph on Generative AI:\n\nGenerative Artificial Intelligence (Gen AI) refers to a class of AI systems designed to create new content, such as text, images, music, or even code, by learning patterns from vast amounts of existing data. Unlike traditional AI that primarily focuses on classifying or predicting, Gen AI models, like GPT or DALL\u00b7E, generate original outputs that can be remarkably creative and human-like. These models leverage deep learning techniques, especially neural networks, to understand context and produce responses that are coherent and contextually relevant. Gen AI is transforming numerous industries by enhancing content creation, automating routine tasks, and enabling innovative applications in entertainment, design, and communication.\n\nLet me know if you want it to be more technical or simplified!",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 122,
+              "output_tokens": 161,
+              "total_tokens": 283
+            },
+            "created_at": 1764753177
+          }
+        ],
+        "input": {
+          "input_content": "generate a paragraph on Gen AI"
+        }
+      },
+      {
+        "run_id": "e4d26bcc-54c7-482b-80a8-102d5d2071da",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Yes, your name is Himanshu! If there's anything else you'd like to know or discuss, feel free to ask.",
+        "content_type": "str",
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "metrics": {
+          "input_tokens": 298,
+          "output_tokens": 25,
+          "total_tokens": 323,
+          "time_to_first_token": 0.001228256000104011,
+          "duration": 1.7415086450000672
+        },
+        "session_state": {},
+        "created_at": 1764753182,
+        "status": "COMPLETED",
+        "messages": [
+          {
+            "id": "d5b84873-0daa-4926-aff9-552994153885",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1764753182
+          },
+          {
+            "id": "15103fb9-7d47-42f2-8251-df8e461f4851",
+            "content": "Hi, my name is Himanshu",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753171
+          },
+          {
+            "id": "ade1a62b-c110-4662-a7e1-ecd6efb4517c",
+            "content": "Hello Himanshu! How can I assist you today?",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 35,
+              "output_tokens": 12,
+              "total_tokens": 47
+            },
+            "created_at": 1764753171
+          },
+          {
+            "id": "80db8d55-92aa-4295-97c0-9bbc72796154",
+            "content": "tell me a joke that is funny",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753175
+          },
+          {
+            "id": "bd82358d-de76-4274-bd72-a1a0745d86aa",
+            "content": "Sure, Himanshu! Here\u2019s a joke for you:\n\n**Why don\u2019t scientists trust atoms?**  \nBecause they make up everything! \ud83d\ude04\n\nHope that made you smile! Would you like to hear another one?",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 62,
+              "output_tokens": 46,
+              "total_tokens": 108
+            },
+            "created_at": 1764753175
+          },
+          {
+            "id": "21244e3c-aebb-43d9-8360-44db19f7a3e6",
+            "content": "generate a paragraph on Gen AI",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753177
+          },
+          {
+            "id": "c762e208-3f97-4f44-a306-c040812f12d2",
+            "content": "Certainly, Himanshu! Here\u2019s a paragraph on Generative AI:\n\nGenerative Artificial Intelligence (Gen AI) refers to a class of AI systems designed to create new content, such as text, images, music, or even code, by learning patterns from vast amounts of existing data. Unlike traditional AI that primarily focuses on classifying or predicting, Gen AI models, like GPT or DALL\u00b7E, generate original outputs that can be remarkably creative and human-like. These models leverage deep learning techniques, especially neural networks, to understand context and produce responses that are coherent and contextually relevant. Gen AI is transforming numerous industries by enhancing content creation, automating routine tasks, and enabling innovative applications in entertainment, design, and communication.\n\nLet me know if you want it to be more technical or simplified!",
+            "from_history": true,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 122,
+              "output_tokens": 161,
+              "total_tokens": 283
+            },
+            "created_at": 1764753177
+          },
+          {
+            "id": "6b070c97-0391-4811-b794-c3677c457079",
+            "content": "Can you tell me my name?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1764753182
+          },
+          {
+            "id": "3d626aa6-abe3-4327-9286-3b6192851140",
+            "content": "Yes, your name is Himanshu! If there's anything else you'd like to know or discuss, feel free to ask.",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "metrics": {
+              "input_tokens": 298,
+              "output_tokens": 25,
+              "total_tokens": 323
+            },
+            "created_at": 1764753182
+          }
+        ],
+        "input": {
+          "input_content": "Can you tell me my name?"
+        }
+      }
+    ],
+    "summary": null,
+    "created_at": 1764753171,
+    "updated_at": 1764753183,
+    "session_type": "agent"
+  }
+]
